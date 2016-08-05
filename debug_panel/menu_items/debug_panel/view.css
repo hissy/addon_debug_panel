@@ -1,0 +1,25 @@
+#ccm-panel-debug {
+    background-color: #2a2c30;
+    color: #f0f0f0;
+}
+
+#ccm-panel-debug .ccm-panel-content {
+    color: #f0f0f0;
+}
+
+#ccm-panel-debug h4 {
+    margin: 20px 5px;
+}
+
+#ccm-panel-debug table {
+    margin-bottom: 40px;
+}
+
+#ccm-panel-debug th {
+    width: 50%;
+}
+
+#ccm-panel-debug th.break,
+#ccm-panel-debug td {
+    word-break: break-all;
+}
