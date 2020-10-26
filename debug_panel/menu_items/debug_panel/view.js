@@ -1,6 +1,7 @@
 (function($){
     $('#debug-panel-launcher').on('click', function(e){
         e.preventDefault();
+        var html = $('html');
         if (! html.hasClass('ccm-panel-open')) {
             html.addClass('ccm-panel-open ccm-panel-left');
             $(this).addClass('ccm-launch-panel-active');
